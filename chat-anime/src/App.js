@@ -1,15 +1,12 @@
-
 import './App.css';
 import io from 'socket.io-client';
 
-const socketURL = 'http://localhost:3009';
-socketURL.connect(socketURL);
-
+const socket = io.connect('http://localhost:3009');
 function App() {
 
   return (
     <div className="App">
-     
+     <h1>Chat App</h1>
     </div>
   );
 }
