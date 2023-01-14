@@ -1,38 +1,53 @@
-.App {
+body{  
+  font-family: 'Courier New', Courier, monospace;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgb(9, 235, 148) 0.3%, rgba(74, 94, 2, 0.8) 90.2% );
+}
+
+.App{
   text-align: center;
+  
+  margin-top: -38px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Chat__Header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+input{
+  width: 150px;
+  padding: 4px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+button{
+  width: 150px;
+  padding: 4px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #fa6a09;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
 }
